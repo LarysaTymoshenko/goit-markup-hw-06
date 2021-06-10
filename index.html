@@ -400,7 +400,32 @@
                 </svg>
             </button>
             <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
-            <form action=""> </form>
+                <div class="form-field">
+                <label for="name"> Имя        </label>
+                    <use href="./images/modalstyle/modal.svg#icon-person" ></use></svg>
+                </div>
+                <div class="form-field">
+                    <label for="phone"> Телефон </label>
+                    <input class="form-input" type="tel" name="tel" id="phone"  autocomplete="off">
+                    <svg class="icon-form">
+                        <use href="./images/modalstyle/modal.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+                    <label for="email"> Почта</label>
+                    <input class="form-input" type="email" name="email" id="email"  autocomplete="off">
+                    <svg  class="icon-form">
+                        <use href="./images/modalstyle/modal.svg#icon-email" ></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+            <label for="comment">Комментарий</label>
+            <textarea class="form-comment" name="comment" id="comment" rows="10" placeholder="Введите текст" ></textarea>
+            
+            </div>
+            </form>
+
+            <button type="button" class="btn-form">Отправить</button>
         </div>
     </div>
     <!--Оформлние модального окна-->
