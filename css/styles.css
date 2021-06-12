@@ -610,6 +610,13 @@ img {
 .address {
   font-style: normal;
 }
+.address-footer:focus,
+.address-footer:hover,
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-text-color);
+}
+
 .title-footer-link {
   font-weight: 700;
   font-size: 14px;
@@ -620,6 +627,7 @@ img {
 
 .footer-social1 {
   margin-left: 70px;
+  margin-right: 76px;
 }
 
 .icon-list-social-footer {
@@ -640,10 +648,9 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   padding: 10px 29px;
-  min-width: 200px;
-
   width: 200px;
   height: 50px;
+
   color: var(--link-text-color);
   background-color: var(--accent-text-color);
 
@@ -665,11 +672,14 @@ img {
   bottom: 13px;
   margin-left: 10px;
 }
-
+/*.left-footer {
+  width: 231px;
+}
+*/
 .form-sub {
   display: inline-block;
   flex-direction: column;
-  margin-left: 93px;
+  margin-left: auto;
 }
 .form-sub input {
   background-color: var(--background-hero-footer-color);
@@ -802,11 +812,6 @@ img {
   color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
-/*.close:hover,
-.close:focus {
-  color: var(--accent-text-color);
-  fill: var(--accent-text-color);
-}*/
 
 .title-modal {
   font-weight: 700;
