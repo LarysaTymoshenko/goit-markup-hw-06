@@ -650,6 +650,7 @@ img {
   padding: 10px 29px;
   width: 200px;
   height: 50px;
+  margin-top: 20px;
 
   color: var(--link-text-color);
   background-color: var(--accent-text-color);
@@ -672,10 +673,7 @@ img {
   bottom: 13px;
   margin-left: 10px;
 }
-/*.left-footer {
-  width: 231px;
-}
-*/
+
 .form-sub {
   display: inline-block;
   flex-direction: column;
@@ -693,6 +691,10 @@ img {
   box-shadow: rgba(0, 0, 0, 0.15);
 
   border-radius: 4px;
+}
+.subs {
+  display: inline-flex;
+  align-items: center;
 }
 /* end рассылка*/
 
@@ -779,7 +781,6 @@ img {
   transform: translate(-50%, -50%) scale(1);
 
   width: 528px;
-  height: 581px;
   padding: 40px;
 
   background-color: var(--link-text-color);
@@ -850,11 +851,10 @@ img {
 
 .form-input {
   width: 448px;
-  height: 40px;
+
   cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-bottom: 10px;
-  padding-left: 32px;
+  border-radius: 4px;
 }
 .form-input:focus {
   border-color: var(--accent-text-color);
@@ -871,6 +871,7 @@ img {
   width: 448px;
   height: 120px;
   resize: none;
+  border-radius: 4px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
@@ -922,7 +923,7 @@ img {
 .icon-form {
   position: absolute;
   left: 12px;
-  top: 30px;
+  top: 19px;
 
   width: 18px;
   height: 18px;
