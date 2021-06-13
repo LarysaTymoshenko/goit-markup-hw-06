@@ -851,7 +851,8 @@ img {
 
 .form-input {
   width: 448px;
-
+  padding: 12px;
+  padding-left: 40px;
   cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -923,7 +924,7 @@ img {
 .icon-form {
   position: absolute;
   left: 12px;
-  top: 19px;
+  top: 30px;
 
   width: 18px;
   height: 18px;
